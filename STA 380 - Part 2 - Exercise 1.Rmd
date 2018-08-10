@@ -597,7 +597,7 @@ fviz_cluster(clust1, data = scl_scaled)
 ```
 **The cluster separation is not very clear from the plot. So lets analyze the cluster centers to come up with the profiles based on the clusters**  
 
-image:![Clusters of interest](STA_380_-_Part_2_-_Exercise_1_v3_files/Cluster profiles.png)
+image:![Clusters of interest](STA_380_-_Part_2_-_Exercise_1_v3_files/Cluster profiles.PNG)
 
 **Findings:**  
 * There are multiple interesting profiles that came out of the clusters       

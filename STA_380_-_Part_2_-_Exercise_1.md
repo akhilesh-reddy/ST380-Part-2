@@ -204,7 +204,7 @@ Importing the data and all the required libraries
 
     ## [1] "Median rent of green buildings :  25"
 
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
     ## [1] "Median leasing rate of green buildings :  92.92"
 
@@ -231,7 +231,7 @@ e.class\_a buildings have higher rent than the other buildings
 Let's plot the respective distribution to find if the hypotheses can be
 supported using the relationships
 
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
 **Findings**:  
 \* Age has no visible relation with Rent when all buildings are
@@ -244,7 +244,7 @@ higher rent than the other buildings
 Lets check the above hypotheses for Green and Non-Green buildings
 separtely to see if there is any influence
 
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 **Findings**:  
 \* Older Green Buildings have the possibility of charging higher rents
 when they are renovated  
@@ -253,7 +253,7 @@ after the buildings are split into green and non-green buildings
 
 #### Step 3: Deep Diving into some of the potential variables to see the difference between rents between green and non-green buildings
 
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
     ## [1] "Median rent of green buildings less than 30 years of age: 28"
 
@@ -273,7 +273,7 @@ receiving a particular amount of rent
 local markets  
 \* You can observe that more than 50% of the markets have rent less than
 $25 rent  
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 **We can further calculate the number of local markets in which the rent
 for green building is higher than the median cluster rent as median is
 more robust to outliers**
@@ -363,7 +363,7 @@ portfolio have been calculated below
 
 #### Split considered for Safe portfolio is VNQ:50%,EEM :50%
 
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-1.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-2.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-3.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-4.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-5.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-6.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-7.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-9-8.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-1.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-2.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-3.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-4.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-5.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-6.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-7.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-9-8.png)
 
     ## [1] "Value at risk for even split :  5729.5"
 
@@ -422,7 +422,7 @@ Step1:
     ##  $ spam            : int  0 0 0 0 0 0 0 0 0 0 ...
     ##  $ adult           : int  0 0 0 0 0 0 0 0 0 0 ...
 
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-10-1.png)
 **Findings:**  
 \* Shopping and photo-sharing are positively correlated  
 \* College\_uni and online\_gaming stands out with a strong positive
@@ -438,13 +438,13 @@ Step 2: Normalize the data and perform k - means clustering
 
 There is no considerable decrease in the error after 8 clusters.  
 Hence 8 clusters were considered to be optimal for the analysis  
-![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-11-1.png)![](STA_380_-_Part_2_-_Exercise_1_v3_files/figure-markdown_strict/unnamed-chunk-11-2.png)
+![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-11-1.png)![](STA_380_-_Part_2_-_Exercise_1_files/figure-markdown_strict/unnamed-chunk-11-2.png)
 **The cluster separation is not very clear from the plot. So lets
 analyze the cluster centers to come up with the profiles based on the
 clusters**
 
 image:![Clusters of
-interest](STA_380_-_Part_2_-_Exercise_1_v3_files/Cluster%20profiles.png)
+interest](STA_380_-_Part_2_-_Exercise_1_v3_files/Cluster%20profiles.PNG)
 
 **Findings:**  
 \* There are multiple interesting profiles that came out of the clusters
